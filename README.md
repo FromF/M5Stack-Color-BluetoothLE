@@ -6,6 +6,8 @@
 
 [M5Stack](https://amzn.to/2C4BMkB)とiOSアプリを作成しBluetoothLE通信を試すプロジェクトファイル一式です。  
 
+![](./image/demo.gif)  
+
 [LTスライド]()  
 
 ## 動作要件  
