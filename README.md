@@ -8,7 +8,7 @@
 
 ![](./image/demo.gif)  
 
-[LTスライド](https://www.slideshare.net/FromF/swift26)  
+[LTスライド](https://www.slideshare.net/FromF/swift26-112531898)  
 
 ## 動作要件  
 
