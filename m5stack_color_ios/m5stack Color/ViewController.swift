@@ -70,6 +70,7 @@ class ViewController: UIViewController , CBCentralManagerDelegate , CBPeripheral
     }
     
     private func connectPeripheral() {
+        centralManager.stopScan()
         centralManager.connect(connectToPeripheral, options: nil)
     }
     
@@ -103,7 +104,6 @@ class ViewController: UIViewController , CBCentralManagerDelegate , CBPeripheral
     }
     
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
-        central.stopScan()
         peripheralDiscoverServices()
     }
     
